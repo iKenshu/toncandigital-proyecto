@@ -221,15 +221,29 @@
 
 .Products{
 	display: flex;
-	align-items: center;
 	justify-content: space-around;
+	flex-flow: row wrap;
+	margin: 1em;
+}
+
+.Products-images{
+	display: flex;
+	justify-content: space-around;
+	margin: 1em;
+}
+
+.Products-descriptions{
+	display: flex;
+	justify-content: center;
+
 }
 
 .Products-description{
-	width: 35%;
+	width: 20%;
 	background-color: #efefef;
 	padding: 2em;
 	border-radius: 2em;
+	margin: 1em;
 }
 
 /*************** SLIDES PRODUCTS **********/
@@ -252,7 +266,7 @@
 	overflow: hidden;
 	width: 100%;
 	padding: 0;
-	margin: 0;
+	margin: 0 1em;
 }
 
 .rslides li {
@@ -272,7 +286,7 @@
 
 .rslides img {
 	display: block;
-	height: 450px;
+	height: 250px;
 	float: left;
 	border: 0;
 }
