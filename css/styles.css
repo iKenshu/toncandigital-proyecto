@@ -104,6 +104,7 @@
 .Header-copy{
 	font-size: 2em;
 	width: 40%;
+	margin-right: .3em;
 }
 .Header-description{
 	font-weight: 700;
