@@ -340,20 +340,21 @@
 	background-color: rgba(76, 175, 80, 0.88);
 	display: flex;
 	justify-content: space-around;
+	align-items: baseline;
 	padding: 10em 0 10em 0;
 }
 
 .Contact-follow {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	font-size: 2em;
 }
 
 .Contact-follow a{
 	text-decoration: none;
 	color: white;
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 }
 .Contact-description{
 	font-size: .5em;
