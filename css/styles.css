@@ -433,7 +433,7 @@
 	}
 	.Header-copy{
 		font-size: 1em;
-		width: 90%;
+		width: auto;
 		padding: 1em;
 	}
 	.title{
@@ -443,13 +443,13 @@
 		flex-direction: column;
 	}
 	.Service-description{
-		width: 90%;
+		width: auto;
 	}
 	.Products-descriptions{
 		flex-direction: column;
 	}
 	.Products-description{
-		width: 90%;
+		width: auto;
 	}
 	.rslides{
 		display: none;
@@ -458,13 +458,21 @@
 		flex-direction: column;
 	}
 	.Who-description{
-		width: 90%;
+		width: auto;
 		order: 1;
 	}
 
 	.Contact{
 		flex-direction: column;
+		align-items: center;
+	}
+	.Contact-follow{
+		font-size: 1em;
+		align-items: center;
+	}
+	.Contact-description{
+		font-size: 1em;
 	}
 	.Contact-form{
-		width: 90%;
+		width: auto;
 	}
