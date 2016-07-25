@@ -415,3 +415,56 @@
 .justify{
 	text-align: justify;
 }
+
+/****** MEDIA QUERIES ******/
+
+@media (max-width: 320px){
+	.Menu{
+		display: none;
+	}
+	.Header{
+		flex-direction: column;
+		height: 600px;
+		justify-content: center;
+	}
+	.Header-title{
+		margin: 1em;
+		font-size: 2em;
+	}
+	.Header-copy{
+		font-size: 1em;
+		width: 90%;
+		padding: 1em;
+	}
+	.title{
+		font-size: 2em;
+	}
+	.Services{
+		flex-direction: column;
+	}
+	.Service-description{
+		width: 90%;
+	}
+	.Products-descriptions{
+		flex-direction: column;
+	}
+	.Products-description{
+		width: 90%;
+	}
+	.rslides{
+		display: none;
+	}
+	.Who{
+		flex-direction: column;
+	}
+	.Who-description{
+		width: 90%;
+		order: 1;
+	}
+
+	.Contact{
+		flex-direction: column;
+	}
+	.Contact-form{
+		width: 90%;
+	}
