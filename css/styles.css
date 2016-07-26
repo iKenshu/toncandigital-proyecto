@@ -453,6 +453,7 @@
 	}
 	.Services{
 		flex-direction: column;
+		align-items: center;
 	}
 	.Service-description{
 		width: auto;
@@ -497,5 +498,46 @@
 	}
 	.Contact-form{
 		width: auto;
+	}
+}
+
+@media (max-width: 768px){
+	.Menu{
+		justify-content: space-around;
+		display: none;
+	}
+	.Menu-logo{
+		
+	}
+	.Header{
+		justify-content: center;
+		flex-direction: column;
+	}
+	.Header-title{
+		font-size: 3em;
+	}
+	.Header-copy{
+		width: 60%;
+	}
+	.Header-description{
+		font-weight: 400;
+		text-align: center;
+		margin: 1em 0 .7em 0;
+	}
+	.Service-description{
+		width: 75%;
+	}
+	.Products-descriptions{
+		flex-direction: column;
+		align-items: center;
+	}
+	.Products-description{
+		width: auto;
+	}
+	.rslides2{
+		display: none;
+	}
+	.rslides3{
+		display: none;
 	}
 }
