@@ -1,14 +1,13 @@
 @font-face {
-    font-family: 'icomoon';
-    src:    url('../fonts/icomoon.eot?e9mhx');
-    src:    url('../fonts/icomoon.eot?e9mhx#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?e9mhx') format('truetype'),
-        url('../fonts/icomoon.woff?e9mhx') format('woff'),
-        url('../fonts/icomoon.svg?e9mhx#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'icomoon';
+	src:  url('../fonts/icomoon.eot?v39svl');
+	src:  url('../fonts/icomoon.eot?v39svl#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?v39svl') format('truetype'),
+		url('../fonts/icomoon.woff?v39svl') format('woff'),
+		url('../fonts/icomoon.svg?v39svl#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
-
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
@@ -89,7 +88,10 @@
 	color: white;
 	margin-right: 1em;
 }
-
+.icon-location:before {
+	content: "\e947";
+	margin-right: .5em;
+}
 .Header{
 	align-items: center;
 	background-image: url('../img/header-2.jpg');
@@ -348,7 +350,9 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	font-size: 2em;
+	font-size: 1.2em;
+	color: white;
+	width: 38%;
 }
 
 .Contact-follow a{
@@ -356,10 +360,7 @@
 	color: white;
 	margin-bottom: .5em;
 }
-.Contact-description{
-	font-size: .5em;
-	color: white;
-}
+
 
 .Contact-form{
 	display: flex;
