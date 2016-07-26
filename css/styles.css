@@ -318,6 +318,11 @@
 	align-items: center;
 	justify-content: center;
 }
+.Costumer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .Costumers-image{
 	width: 200px;
 	-webkit-filter: grayscale(100%);
@@ -418,25 +423,32 @@
 
 /****** MEDIA QUERIES ******/
 
-@media (max-width: 320px){
+@media (max-width: 500px){
 	.Menu{
 		display: none;
 	}
 	.Header{
 		flex-direction: column;
-		height: 600px;
+		height: 500px;
 		justify-content: center;
 	}
 	.Header-title{
-		margin: 1em;
-		font-size: 2em;
+		margin: .5em;
+		font-size: 3em;
 	}
 	.Header-copy{
 		font-size: 1em;
 		width: auto;
 		padding: 1em;
+		text-align: center;
+	}
+	.Header-button{
+		width: auto;
 	}
 	.title{
+		font-size: 2em;
+	}
+	.title-white{
 		font-size: 2em;
 	}
 	.Services{
@@ -444,6 +456,10 @@
 	}
 	.Service-description{
 		width: auto;
+		margin: 1em;
+	}
+	.justify{
+		text-align: center;
 	}
 	.Products-descriptions{
 		flex-direction: column;
@@ -453,6 +469,15 @@
 	}
 	.rslides{
 		display: none;
+	}
+	.Costumers{
+		
+	}
+	.Costumer{
+		flex-direction: column;
+	}
+	.Costumers-description{
+		width: auto;
 	}
 	.Who{
 		flex-direction: column;
@@ -465,13 +490,10 @@
 	.Contact{
 		flex-direction: column;
 		align-items: center;
+		padding: 5em 0 5em 0;
 	}
 	.Contact-follow{
-		font-size: 1em;
 		align-items: center;
-	}
-	.Contact-description{
-		font-size: 1em;
 	}
 	.Contact-form{
 		width: auto;
