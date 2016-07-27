@@ -439,7 +439,6 @@
 
 @media (max-width: 768px){
 	.Menu{
-		justify-content: space-around;
 		display: none;
 	}
 	.Menu-logo{
@@ -479,9 +478,6 @@
 }
 
 @media (max-width: 500px){
-	.Menu{
-		display: none;
-	}
 	.Header{
 		flex-direction: column;
 		height: 400px;
@@ -554,6 +550,9 @@
 	}
 	.Who{
 		flex-direction: column;
+	}
+	.Who-image{
+		order: -1;
 	}
 	.Who-description{
 		width: auto;
