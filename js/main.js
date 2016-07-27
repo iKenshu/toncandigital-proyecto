@@ -1,12 +1,10 @@
-$(document).on('click', 'nav.Menu a', function(event){
+$(document).on('click', 'a', function(event){
 	event.preventDefault();
 
 	$('html, body').animate({
 	    scrollTop: $( $.attr(this, 'href') ).offset().top
 	}, 700);
 });
-
-//.on('click', 'a:not(.my-twitter-selector)'
 
 $(function() {
   	$(".rslides").responsiveSlides({

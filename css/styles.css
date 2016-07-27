@@ -322,6 +322,11 @@
 	align-items: center;
 	justify-content: center;
 }
+.Costumer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .Costumers-image{
 	width: 200px;
 	-webkit-filter: grayscale(100%);
@@ -426,7 +431,7 @@
 
 /****** MEDIA QUERIES ******/
 
-@media (max-width: 320px){
+@media (max-width: 500px){
 	.Menu{
 		display: none;
 	}
@@ -443,6 +448,21 @@
 		font-size: 1em;
 		width: 90%;
 		padding: 1em;
+		height: 500px;
+		justify-content: center;
+	}
+	.Header-title{
+		margin: .5em;
+		font-size: 3em;
+	}
+	.Header-copy{
+		font-size: 1em;
+		width: auto;
+		padding: 1em;
+		text-align: center;
+	}
+	.Header-button{
+		width: auto;
 	}
 	.title{
 		font-size: 2em;
@@ -453,21 +473,43 @@
 	.Service-description{
 		width: 90%;
 	}
+	.title-white{
+		font-size: 2em;
+	}
+	.Services{
+		flex-direction: column;
+		align-items: center;
+	}
+	.Service-description{
+		width: auto;
+		margin: 1em;
+	}
+	.justify{
+		text-align: center;
+	}
 	.Products-descriptions{
 		flex-direction: column;
 	}
 	.Products-description{
-		width: 90%;
+		width: auto;
 	}
 	.rslides{
 		display: none;
+	}
+	.Costumers{
+		
+	}
+	.Costumer{
+		flex-direction: column;
+	}
+	.Costumers-description{
+		width: auto;
 	}
 	.Who{
 		flex-direction: column;
 	}
 	.Who-description{
-		width: 90%;
-		order: 1;
+		width: auto;
 	}
 
 	.Contact{
@@ -475,5 +517,54 @@
 	}
 	.Contact-form{
 		width: 90%;
+		align-items: center;
+		padding: 5em 0 5em 0;
+	}
+	.Contact-follow{
+		align-items: center;
+	}
+	.Contact-form{
+		width: auto;
+	}
+}
+
+@media (max-width: 768px){
+	.Menu{
+		justify-content: space-around;
+		display: none;
+	}
+	.Menu-logo{
+		
+	}
+	.Header{
+		justify-content: center;
+		flex-direction: column;
+	}
+	.Header-title{
+		font-size: 3em;
+	}
+	.Header-copy{
+		width: 60%;
+	}
+	.Header-description{
+		font-weight: 400;
+		text-align: center;
+		margin: 1em 0 .7em 0;
+	}
+	.Service-description{
+		width: 75%;
+	}
+	.Products-descriptions{
+		flex-direction: column;
+		align-items: center;
+	}
+	.Products-description{
+		width: auto;
+	}
+	.rslides2{
+		display: none;
+	}
+	.rslides3{
+		display: none;
 	}
 }
