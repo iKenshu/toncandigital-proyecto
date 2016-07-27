@@ -1,4 +1,4 @@
-$(document).on('click', 'a', function(event){
+$(document).on('click', 'nav.Menu a', function(event){
 	event.preventDefault();
 
 	$('html, body').animate({
