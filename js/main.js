@@ -1,4 +1,4 @@
-$(document).on('click', 'nav.Menu a', function(event){
+$(document).on('click', 'a[href*="#"]:not([href="#"])', function(event){
 	event.preventDefault();
 
 	$('html, body').animate({
