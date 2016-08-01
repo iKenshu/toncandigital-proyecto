@@ -1,10 +1,13 @@
-$(document).on('click', 'a[href*="#"]:not([href="#"])', function(event){
+ $(document).on('click', 'a[href*="#"]:not([href="#"])', function(event){
 	event.preventDefault();
 
 	$('html, body').animate({
-	    scrollTop: $( $.attr(this, 'href') ).offset().top
+	    scrollTop: $( $.attr(this, 'href') ).offset().top - 50
 	}, 700);
-});
+
+}); 
+
+
 
 $(function() {
   	$(".rslides").responsiveSlides({
