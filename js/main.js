@@ -1,3 +1,12 @@
+window.sr = ScrollReveal({reset: true});
+sr.reveal('.Service-description', {duration: 2000 }, 100);
+sr.reveal('.Products-descriptions', {duration: 2000 }, 100);
+sr.reveal('.Who-description', {duration: 2000 }, 100);
+sr.reveal('.Service-description', {duration: 2000 }, 100);
+sr.reveal('.Costumer', {duration: 2000 }, 100);
+sr.reveal('.Contact-form', {duration: 2000 }, 100);
+
+
 $(document).on('click', 'a[href*="#"]:not([href="#"])', function(event){
 	event.preventDefault();
 
