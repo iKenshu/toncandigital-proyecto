@@ -4,6 +4,7 @@ sr.reveal('.Products-descriptions', {duration: 2000 }, 100);
 sr.reveal('.Who-description', {duration: 2000 }, 100);
 sr.reveal('.Service-description', {duration: 2000 }, 100);
 sr.reveal('.Costumer', {duration: 2000 }, 100);
+sr.reveal('.Fotocopiadoras-description', {duration: 2000 }, 100);
 sr.reveal('.Images-costumer', {duration: 2000 }, 100);
 sr.reveal('.Contact-form', {duration: 2000 }, 100);
 
