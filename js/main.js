@@ -15,8 +15,6 @@ $(document).on('click', 'a[href*="#"]:not([href="#"])', function(event){
 	}, 700);
 }); 
 
-
-
 $(function() {
   	$(".rslides").responsiveSlides({
 		auto: true,             // Boolean: Animate automatically, true or false
