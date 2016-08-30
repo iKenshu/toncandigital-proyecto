@@ -1,12 +1,12 @@
 window.sr = ScrollReveal({reset: true});
-sr.reveal('.Service-description', {duration: 2000 }, 100);
-sr.reveal('.Products-descriptions', {duration: 2000 }, 100);
-sr.reveal('.Who-description', {duration: 2000 }, 100);
-sr.reveal('.Service-description', {duration: 2000 }, 100);
-sr.reveal('.Costumer', {duration: 2000 }, 100);
-sr.reveal('.Fotocopiadoras-description', {duration: 2000 }, 100);
-sr.reveal('.Images-costumer', {duration: 2000 }, 100);
-sr.reveal('.Contact-form', {duration: 2000 }, 100);
+sr.reveal('.Service-description', {duration: 1500}, 100);
+sr.reveal('.Products-description', {duration: 1500}, 100);
+sr.reveal('.Who-description', {duration: 1500}, 100);
+sr.reveal('.Service-description', {duration: 1500}, 100);
+sr.reveal('.Costumer', {duration: 1500}, 100);
+sr.reveal('.Fotocopiadoras-description',{duration: 1500}, 100);
+sr.reveal('.Images-costumer', {duration: 1500}, 100);
+sr.reveal('.Contact-form', {duration: 1500}, 100);
 
 
 $(document).on('click', 'a[href*="#"]:not([href="#"])', function(event){
