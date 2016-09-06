@@ -1,5 +1,5 @@
 window.sr = ScrollReveal({reset: true});
-<<<<<<< HEAD
+
 sr.reveal('.Service-description', {duration: 1500}, 100);
 sr.reveal('.Products-description', {duration: 1500}, 100);
 sr.reveal('.Who-description', {duration: 1500}, 100);
@@ -8,16 +8,6 @@ sr.reveal('.Costumer', {duration: 1500}, 100);
 sr.reveal('.Fotocopiadoras-description',{duration: 1500}, 100);
 sr.reveal('.Images-costumer', {duration: 1500}, 100);
 sr.reveal('.Contact-form', {duration: 1500}, 100);
-=======
-sr.reveal('.Service-description', {duration: 1500 }, 100);
-sr.reveal('.Products-description', {duration: 1500 }, 100);
-sr.reveal('.Who-description', {duration: 1500 }, 100);
-sr.reveal('.Service-description', {duration: 1500 }, 100);
-sr.reveal('.Costumer', {duration: 1500 }, 100);
-sr.reveal('.Images-costumer', {duration: 1500 }, 100);
-sr.reveal('.Contact-form', {duration: 1500 }, 100);
->>>>>>> master
-
 
 $(document).on('click', 'a[href*="#"]:not([href="#"])', function(event){
     event.preventDefault();
